@@ -1,0 +1,40 @@
+.scroll-outside-container {
+    overflow-y: auto;
+    box-sizing: content-box;
+    margin-right: -19px;
+    padding-right: 5px;
+}
+
+@media (max-width: 640px) {
+    .scroll-outside-container {
+        margin-right: 0;
+        padding-right: 0;
+    }
+}
+
+.fade-transition {
+    transition: all 0.3s ease-in-out !important;
+}
+
+.fade-transition-height {
+    transition: height 0.3s ease-in-out !important;
+}
+
+.fade-transition-min-height {
+    transition: min-height 0.3s ease-in-out !important;
+}
+
+.hidden-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+@keyframes rowFadeOut {
+  to {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+}
+
+.row-removing {
+  animation: rowFadeOut 300ms ease forwards;
+}

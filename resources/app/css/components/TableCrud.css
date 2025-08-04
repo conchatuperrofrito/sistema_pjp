@@ -1,0 +1,32 @@
+.btn-columns svg {
+  transition: transform 0.3s ease;
+  font-size: 0.7rem;
+}
+
+.btn-columns[aria-expanded="true"] svg {
+  transform: rotate(180deg);
+  animation: rotateAnimation 0.15s forwards;
+}
+
+.btn-columns[aria-expanded="false"] svg {
+  transform: rotate(0deg);
+  animation: revertAnimation 0.15s forwards;
+}
+
+@keyframes rotateAnimation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
+}
+
+@keyframes revertAnimation {
+  0% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}

@@ -1,0 +1,12 @@
+import { SVGProps } from "react";
+
+export const FileChartIcon = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    height="1em"
+    width="1em"
+    fill="currentColor"
+    {...props}
+    viewBox="0 0 384 512">
+    <path d="M224 0L0 0 0 512l384 0 0-352-160 0L224 0zm32 0l0 128 128 0L256 0zM216 248l0 176 0 24-48 0 0-24 0-176 0-24 48 0 0 24zm88 64l0 112 0 24-48 0 0-24 0-112 0-24 48 0 0 24zM128 376l0 48 0 24-48 0 0-24 0-48 0-24 48 0 0 24z"/>
+  </svg>
+);
