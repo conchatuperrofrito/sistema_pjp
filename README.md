@@ -1,6 +1,7 @@
-# Sistema de Gestión de Citas Clínicas y SST
+# DOCUMENTACIÓN 
+# Sistema de Gestión de Salud y Ocupacional
 
-Repositorio: [https://github.com/lalechelml/clinical\_appointment\_PJP-app.git](https://github.com/lalechelml/clinical_appointment_PJP-app.git)
+Repositorio: [https://github.com/lalechelml/clinical\_appointment\_PJP-app.git](https://github.com/lalechelml/clinical_appointment_PJP-app.git](https://github.com/lalechelml/clinical_appointment_PJP-app).
 
 Este proyecto es una aplicación web para la gestión integral de pacientes, citas médicas y los módulos de Seguridad y Salud en el Trabajo (SST), desarrollado con **Laravel 11** en el backend y **React** en el frontend.
 
